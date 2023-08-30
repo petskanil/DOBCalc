@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/bgColor"
+    android:padding="16sp"
+    >
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE YOUR"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/textRed"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/header2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:textSize="26sp"
+        android:textColor="@color/bgColor"
+        android:textStyle="bold"
+        android:background="@color/textRed"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/header3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN MINUTES"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/textRed"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/dateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/btnColor"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="SELECT DATE"
+        android:textColor="@color/textYellow"
+        android:textSize="26sp" />
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="../../...."
+        android:textSize="20sp"
+        android:textColor="@color/textRed"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textSize="15sp"
+        android:textColor="@color/btnColor"
+        />
+
+    <TextView
+        android:id="@+id/calculatedMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...."
+        android:textSize="26sp"
+        android:textColor="@color/textRed"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In minutes till date"
+        android:textSize="15sp"
+        android:textColor="@color/btnColor"
+        />
+</LinearLayout>
